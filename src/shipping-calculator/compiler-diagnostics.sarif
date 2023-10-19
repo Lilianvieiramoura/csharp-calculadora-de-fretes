@@ -5,9 +5,9 @@
     {
       "tool": {
         "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "4.1.0.0",
-        "fileVersion": "4.1.0-5.22116.13 (dbffaa4a)",
-        "semanticVersion": "4.1.0",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.23101.13 (528676cd)",
+        "semanticVersion": "4.4.0",
         "language": "pt-BR"
       },
       "results": [
@@ -18,33 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/rahelund/Projects/Trybe/Projetos/acc-elective-csharp-0x-project-shipping-calculator/src/shipping-calculator/ShippingCalculator.cs",
+                "uri": "file:///home/lilian/ExerciciosEletivaC%23/dia1.3/csharp-029-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
                 "region": {
-                  "startLine": 14,
+                  "startLine": 15,
                   "startColumn": 19,
-                  "endLine": 14,
+                  "endLine": 15,
                   "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1822",
-          "level": "note",
-          "message": "Member 'calculateShippingWeight' does not access instance data and can be marked as static",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/rahelund/Projects/Trybe/Projetos/acc-elective-csharp-0x-project-shipping-calculator/src/shipping-calculator/ShippingCalculator.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 23,
-                  "endLine": 28,
-                  "endColumn": 46
                 }
               }
             }
@@ -60,7 +39,7 @@
           "shortDescription": "Mark members as static",
           "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
           "defaultLevel": "note",
-          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
           "properties": {
             "category": "Performance",
             "isEnabledByDefault": true,
