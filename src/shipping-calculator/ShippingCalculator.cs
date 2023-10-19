@@ -18,11 +18,11 @@ public class ShippingCalculator
         {
             return 25;
         }
-        else if (orderPrice > 50 && orderPrice <= 100)
+        else if (orderPrice <= 100)
         {
             return 20;
         }
-        else if (orderPrice > 100 && orderPrice <= 200)
+        else if (orderPrice <= 200)
         {
             return 15;
         } else {
@@ -33,7 +33,25 @@ public class ShippingCalculator
     // 2 - Calcular o Frete por peso na função `CalculateShippingWeight`
     public double calculateShippingWeight(double weight)
     {
-        throw new NotImplementedException();
+        if (weight <= 1.5)
+        {
+            return 3.8;
+        }
+        else if (weight > 1.5 && weight <= 3.5)
+        {
+            return 5.7;
+        }
+        else if (weight <= 7.0)
+        {
+            return 7.2;
+        }
+        else if (weight <= 10)
+        {
+            return 9.4;
+        }
+        else {
+            return weight * 1.9;
+        }
     }
 
     // 3 - Calcular o Frete final na função `CalculateShipping`

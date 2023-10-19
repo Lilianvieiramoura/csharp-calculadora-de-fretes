@@ -31,6 +31,27 @@
           "properties": {
             "warningLevel": 1
           }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'calculateShippingWeight' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/lilian/ExerciciosEletivaC%23/dia1.3/csharp-029-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 19,
+                  "endLine": 34,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
         }
       ],
       "rules": {
